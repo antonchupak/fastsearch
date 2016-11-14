@@ -1,4 +1,4 @@
-##Gulp template (Pug, SASS, autoprefixer, BrowserSync, include)
+##FastSearch Template
 
 [Gulp-Pug-SASS](https://github.com/makecode/gulp-template) - download and try template.
 
