@@ -69,10 +69,10 @@ h4 { font-size: 18px; }
 .btn:hover { background: #e5bb31; }
 
 .ico { display: inline-block; }
-.ico.is-twitter { width: 18px; height: 14px; background-image: url("/img/Twitter.png"); }
-.ico.is-facebook { width: 8px; height: 14px; background-image: url("/img/Facebook.png"); }
-.ico.is-google { width: 16px; height: 14px; background-image: url("/img/Google.png"); }
-.ico.is-pinterest { width: 12px; height: 14px; background-image: url("/img/Pinterest.png"); }
+.ico.is-twitter { width: 18px; height: 14px; background-image: url("img/Twitter.png"); }
+.ico.is-facebook { width: 8px; height: 14px; background-image: url("img/Facebook.png"); }
+.ico.is-google { width: 16px; height: 14px; background-image: url("img/Google.png"); }
+.ico.is-pinterest { width: 12px; height: 14px; background-image: url("../img/Pinterest.png"); }
 
 .social { margin-top: 5px; *zoom: 1; }
 .social:after { content: " "; display: table; clear: both; }
