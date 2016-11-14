@@ -1,0 +1,48 @@
+@import "susy";
+
+$susy: (
+	columns: 4,
+	gutters: 1/12.5,
+	container: 1000px,
+	math: fluid,
+	output: float,
+	gutter-position: after,
+
+	debug: (
+		image: show,
+		color: rgba(#66f, .25),
+		output: overlay,
+		toggle: top right,
+	),
+);
+
+.header__wrap {
+	@include container;
+}
+
+.privilege {
+	@include container;
+
+	&__col {
+		@include span(2);
+
+		&:last-child {
+			@include span(2 last);
+		}
+	}
+}
+
+.footer {
+
+	&__wrap {
+		@include container;
+	}
+
+	&__col {
+		@include span(1);
+
+		&:last-child {
+			@include span(1 last);
+		}
+	}
+}

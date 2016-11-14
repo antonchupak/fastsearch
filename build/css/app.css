@@ -1,0 +1,80 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+body { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ""; content: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+html, body { -webkit-box-sizing: border-box; box-sizing: border-box; height: 100%; }
+
+.header__wrap { max-width: 1000px; margin-left: auto; margin-right: auto; }
+.header__wrap:after { content: " "; display: block; clear: both; }
+head { display: block; position: fixed; right: 10px; top: 10px; z-index: 999; color: #333; background: rgba(255, 255, 255, 0.25); }
+head:before { content: "|||"; display: block; padding: 5px 10px; font-family: sans-serif; font-size: 16px; font-weight: bold; }
+head:hover { background: rgba(255, 255, 255, 0.5); color: red; }
+head:hover ~ .header__wrap, head:hover ~ body .header__wrap { position: relative; }
+head:hover ~ .header__wrap:before, head:hover ~ body .header__wrap:before { position: absolute; top: 0; left: 0; bottom: 0; right: 0; content: " "; z-index: 998; background-image: -webkit-gradient(linear, left top, right top, from(rgba(102, 102, 255, 0.25)), color-stop(92.59259%, rgba(179, 179, 255, 0.25)), color-stop(92.59259%, transparent)); background-image: -webkit-linear-gradient(left, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 92.59259%, transparent 92.59259%); background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 92.59259%, transparent 92.59259%); background-size: 25.4717%; background-origin: content-box; background-clip: content-box; background-position: left top; }
+
+.privilege { max-width: 1000px; margin-left: auto; margin-right: auto; }
+.privilege:after { content: " "; display: block; clear: both; }
+head:hover ~ .privilege, head:hover ~ body .privilege { position: relative; }
+head:hover ~ .privilege:before, head:hover ~ body .privilege:before { position: absolute; top: 0; left: 0; bottom: 0; right: 0; content: " "; z-index: 998; background-image: -webkit-gradient(linear, left top, right top, from(rgba(102, 102, 255, 0.25)), color-stop(92.59259%, rgba(179, 179, 255, 0.25)), color-stop(92.59259%, transparent)); background-image: -webkit-linear-gradient(left, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 92.59259%, transparent 92.59259%); background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 92.59259%, transparent 92.59259%); background-size: 25.4717%; background-origin: content-box; background-clip: content-box; background-position: left top; }
+.privilege__col { width: 49.0566%; float: left; margin-right: 1.88679%; }
+.privilege__col:last-child { width: 49.0566%; float: right; margin-right: 0; }
+
+.footer__wrap { max-width: 1000px; margin-left: auto; margin-right: auto; }
+.footer__wrap:after { content: " "; display: block; clear: both; }
+head:hover ~ .footer__wrap, head:hover ~ body .footer__wrap { position: relative; }
+head:hover ~ .footer__wrap:before, head:hover ~ body .footer__wrap:before { position: absolute; top: 0; left: 0; bottom: 0; right: 0; content: " "; z-index: 998; background-image: -webkit-gradient(linear, left top, right top, from(rgba(102, 102, 255, 0.25)), color-stop(92.59259%, rgba(179, 179, 255, 0.25)), color-stop(92.59259%, transparent)); background-image: -webkit-linear-gradient(left, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 92.59259%, transparent 92.59259%); background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 92.59259%, transparent 92.59259%); background-size: 25.4717%; background-origin: content-box; background-clip: content-box; background-position: left top; }
+.footer__col { width: 23.58491%; float: left; margin-right: 1.88679%; }
+.footer__col:last-child { width: 23.58491%; float: right; margin-right: 0; }
+
+body { color: #fff; font-size: 14px; line-height: 1.6; font-family: "Open Sans", sans-serif; }
+
+a { display: block; color: #e5bb31; }
+a:hover { text-decoration: none; }
+
+h1 { font-size: 64px; }
+
+h2 { font-size: 38px; }
+
+h3 { font-size: 22px; }
+
+h4 { font-size: 18px; }
+
+.header { position: absolute; width: 100%; }
+.header__wrap { background: #e5bb31; }
+
+.footer { background: #000; }
+
+.btn { display: inline-block; padding: 0 50px; height: 50px; line-height: 50px; border: 1px solid #9b9b9b; font-size: 16px; color: #fff; text-transform: uppercase; text-decoration: none; -webkit-transition: all 0.3s ease; transition: all 0.3s ease; }
+.btn:hover { background: #e5bb31; }
+
+.nav { float: right; }
+.nav__list { *zoom: 1; }
+.nav__list:after { content: " "; display: table; clear: both; }
+.nav__el { float: left; }
+.nav__link { padding: 0 20px; height: 100px; line-height: 100px; color: #fff; text-decoration: none; text-transform: uppercase; font-size: 16px; font-weight: 100; -webkit-transition: all 0.3s ease; transition: all 0.3s ease; }
+.nav__link:hover { background-color: #ebca5e; }
+
+.top-banner { height: 700px; padding-top: 280px; background-color: rgba(0, 0, 0, 0.5); text-align: center; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.top-banner__title { margin-bottom: 40px; font-weight: 100; text-transform: uppercase; }
+.top-banner__text { max-width: 625px; margin: 0 auto 80px; line-height: 1.6; }
+
+.privilege { padding: 100px 0; color: #3e3e3e; }
+.privilege__title { font-weight: bold; text-transform: uppercase; }
+.privilege__title span { color: #e5bb31; }
+.privilege__text { color: #3e3e3e; }
+.privilege__link { display: inline-block; }
+
+
+
+/*# sourceMappingURL=app.css.map */

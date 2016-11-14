@@ -1,0 +1,22 @@
+.nav
+	float: right
+
+	&__list
+		+clr
+
+	&__el
+		float: left
+
+	&__link
+		padding: 0 20px
+		height: 100px
+		line-height: 100px
+		color: #fff
+		text-decoration: none
+		text-transform: uppercase
+		font-size: 16px
+		font-weight: 100
+		transition: $tr
+
+		&:hover
+			background-color: lighten($yellow, 10%)
