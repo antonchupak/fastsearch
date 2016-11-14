@@ -9,7 +9,7 @@ $susy: (
 	gutter-position: after,
 
 	debug: (
-		image: show,
+		image: hide,
 		color: rgba(#66f, .25),
 		output: overlay,
 		toggle: top right,
@@ -28,6 +28,21 @@ $susy: (
 
 		&:last-child {
 			@include span(2 last);
+		}
+	}
+}
+
+.help {
+
+	&__wrap {
+		@include container;
+	}
+
+	&__col {
+		@include span(1);
+
+		&:last-child {
+			@include span(1 last);
 		}
 	}
 }
