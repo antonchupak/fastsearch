@@ -1,0 +1,82 @@
+.projects
+	padding: 100px 0
+	color: #3e3e3e
+	+clr
+
+	&__title
+		margin-bottom: 30px
+
+.owl-controls
+	position: absolute
+	top: -55px
+	right: 0
+
+.owl-prev,
+.owl-next
+	display: inline-flex
+
+.owl-next
+	margin-left: 10px
+
+.carousel
+
+	&__img
+		width: 100%
+		height: 130px
+		background-color: $yellow
+		background-size: cover
+		background-position: top center
+		background-image: url("http://placehold.it/235x130")
+
+	&__text
+		margin-top: 10px
+
+.arrow
+	position: relative
+	width: 12px
+	height: 17px
+
+	&.is-left,
+	&.is-right
+
+		&:before
+			position: absolute
+			content: ''
+			top: 4px
+			left: 0
+			width: 12px
+			height: 3px
+			background-color: #a1a1a1
+
+
+		&:after
+			position: absolute
+			content: ''
+			top: 11px
+			left: 0
+			width: 12px
+			height: 3px
+			background-color: #a1a1a1
+
+		&:hover
+
+			&:after,
+			&:before
+				background-color: $yellow
+
+	&.is-left
+
+		&:before
+			transform: rotate(-45deg)
+
+		&:after
+			transform: rotate(45deg)
+
+
+	&.is-right
+
+		&:before
+			transform: rotate(45deg)
+
+		&:after
+			transform: rotate(-45deg)

@@ -47,6 +47,10 @@ $susy: (
 	}
 }
 
+.projects {
+	@include container;
+}
+
 .footer {
 
 	&__wrap {
